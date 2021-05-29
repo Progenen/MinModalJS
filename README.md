@@ -53,6 +53,6 @@ const newModal = new minModalJS('.modal-inner', {
 const newModal = new minModalJS('.modal-inner', 
 
 newModal.modalOpen() // When you will open page. This modal window will open
-newModal.modalOpen() // When you will open page. This modal window will close
+newModal.modalClose() // When you will open page. This modal window will close
 newModal.modalDestroy() //  When you will open page. This modal window with inner content will removed
 ```
