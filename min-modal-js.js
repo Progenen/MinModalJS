@@ -1,4 +1,4 @@
-class minModalJS {
+class MinModalJS {
 
     modalOpen () {
         this.modal.classList.add('min-modal-js-active');
