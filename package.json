@@ -1,6 +1,6 @@
 {
   "name": "min-modal-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ModalJS is a class to help you quickly create modals.",
   "main": "modal.js",
   "scripts": {
