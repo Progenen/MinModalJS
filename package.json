@@ -1,0 +1,24 @@
+{
+  "name": "min-modal-js",
+  "version": "1.0.0",
+  "description": "ModalJS is a class to help you quickly create modals.",
+  "main": "modal.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Progenen/MinModalJS.git"
+  },
+  "keywords": [
+    "modal",
+    "modalJS",
+    "minModalJS"
+  ],
+  "author": "https://github.com/Progenen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Progenen/MinModalJS/issues"
+  },
+  "homepage": "https://github.com/Progenen/MinModalJS#readme"
+}
