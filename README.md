@@ -1,4 +1,4 @@
-# ModalJS
+# Min Modal JS
 
 <h2>Feuatures</h2>
 <ul>
