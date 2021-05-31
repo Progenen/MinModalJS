@@ -1,5 +1,12 @@
 # Min Modal JS
 
+<h2>Updates</h2>
+1.0.4
+- Fixed incorrect opening of the window, the window was opened only by half.
+- Now buttons that MinModalJS uses are deprived of the standard event, links no longer return to the top of the page, etc.
+- Modal windows open more smoothly
+- MinModalJS weighs more JS+CSS(minified: ~ 1.77kb)
+
 <h2>Feuatures</h2>
 <ul>
   <li>Written in vanilla javascript, no dependencies needed</li>
