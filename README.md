@@ -2,6 +2,7 @@
 
 <h2>Updates</h2>
 1.0.4
+
 <ul>
   <li>Fixed incorrect opening of the window, the window was opened only by half.</li>
   <li>Now buttons that MinModalJS uses are deprived of the standard event, links no longer return to the top of the page, etc.</li>
