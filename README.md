@@ -1,9 +1,18 @@
 # Min Modal JS
 
+<h2>Updates</h2>
+1.0.4
+<ul>
+  <li>Fixed incorrect opening of the window, the window was opened only by half.</li>
+  <li>Now buttons that MinModalJS uses are deprived of the standard event, links no longer return to the top of the page, etc.</li>
+  <li>Modal windows open more smoothly</li>
+  <li>MinModalJS weighs more JS+CSS(minified: ~ 1.77kb)</li>
+</ul>
+
 <h2>Feuatures</h2>
 <ul>
   <li>Written in vanilla javascript, no dependencies needed</li>
-  <li>Lightweight JS+CSS(minified: ~1.22kb)</li>
+  <li>Lightweight JS+CSS(minified: ~1.77kb)</li>
   <li>No restrictions on the number of buttons and modal windows</li>
   <li>Modal closed if you press ESC(you can replace event.code or off it) or click in outside modal (you can off it). Default all features turn on</li>
   <li>MinModalJS haves three methods modalOpen(), modalDestroy() and modalClose()</li>
@@ -55,4 +64,3 @@ const newModal = new minModalJS('.modal-inner',
 newModal.modalOpen() // When you will open page. This modal window will open
 newModal.modalClose() // When you will open page. This modal window will close
 newModal.modalDestroy() //  When you will open page. This modal window with inner content will removed
-```

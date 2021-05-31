@@ -2,10 +2,12 @@ class MinModalJS {
 
     modalOpen () {
         this.modal.classList.add('min-modal-js-active');
+        document.body.classList.add('lock');
     }
 
     modalClose () {
         this.modal.classList.remove('min-modal-js-active');
+        document.body.classList.remove('lock');
     }
 
     modalDestroy() {
@@ -36,13 +38,15 @@ class MinModalJS {
         document.body.append(this.modal);
         
         this.btns.forEach(element => {
-            element.addEventListener('click', () =>{
+            element.addEventListener('click', (e) =>{
+                e.preventDefault();
                 modalOpen();
             });
         });
 
         this.closeBtns.forEach(element => {
-            element.addEventListener('click', () =>{
+            element.addEventListener('click', (e) =>{
+                e.preventDefault();
                 modalClose();
             });
         });
