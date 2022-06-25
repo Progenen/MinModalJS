@@ -38,11 +38,11 @@ npm i min-modal-js --save-dev
 <h3>HTML</h3>
 
 ```html
-<div class="modal-btn">
+<div class="modal-btnOpen">
     this is button can open modal
 </div>
 <div class="modal-inner">
-    <div class="modal__closeBtn">this is button can close modal</div>
+    <div class="modal-btnClose">this is button can close modal</div>
     content modal
 </div>
 ```
